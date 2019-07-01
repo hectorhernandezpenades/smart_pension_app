@@ -14,13 +14,21 @@ List of webpages with most page views ordered from most pages views to less page
 
 e.g.:
 
-> /home 90 visits /index 80 visits etc...
+> /home 90 visits
+
+> /index 80 visits
+
+> etc...
 
 List of webpages with most unique page views also ordered
 
 e.g.:
 
-> /about/2 8 unique views /index 5 unique views etc...
+> /about/2 8 unique views
+
+> /index 5 unique views
+
+> etc...
 
 ## How I've solved this challenge:##
 
