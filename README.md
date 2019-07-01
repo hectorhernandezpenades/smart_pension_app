@@ -30,7 +30,7 @@ e.g.:
 
 > etc...
 
-## How I've solved this challenge:##
+## How I've solved this challenge:
 
 As per the given instructions and after inspecting the file webserver.log I've decided to create two files, ./smart_pension_app/lib/log_analyzer.rb and ./smart_pension_app/logs_report.rb. In the first one (log_analyzer.rb), is where the logic behind the app lives, the class LogAnalyzer manages the creation of an object called 'parser' everytime the logs_report.rb file is launched.
 Once it's running, logs_report.rb calls the methods needed to achieve the challenge's goals. First parsing the logs data and then the rest of them.
