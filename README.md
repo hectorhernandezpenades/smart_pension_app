@@ -1,4 +1,4 @@
-##Smart Pension Ruby Test##
+# Smart Pension Ruby Test
 
 ##Instructions:##
 
