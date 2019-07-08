@@ -13,22 +13,16 @@ class LogAnalyzer
   end
 
   def most_views
-    most_views = {}
-    @log_stats.each do |key, value|
-      most_views[key] = @log_stats[key].length
-    end
-    most_views = most_views.sort_by { |_k, v| v }.reverse.to_h
+    counter
+    @counts.sort_by { |_k, v| v }.reverse.to_h
   end
 
   def unique_views
     @log_stats.each do |k, _v|
       @log_stats[k].uniq!
     end
-    log_stats_unique = {}
-    @log_stats.each do |key, value|
-      log_stats_unique[key] = @log_stats[key].length
-    end
-    log_stats_unique = log_stats_unique.sort_by { |_k, v| v }.reverse.to_h
+    counter
+    @counts.sort_by { |_k, v| v }.reverse.to_h
   end
 
   private
